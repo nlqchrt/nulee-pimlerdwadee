@@ -1,0 +1,8 @@
+SEND 'Please enter the first number' TO DISPLAY
+RECIEVE firstNumber FROM KEYBOARD
+SEND 'Please enter the second number' TO DISPLAY
+RECIEVE secondNumber FROM KEYBOARD
+SEND 'Please enter third number' TO DISPLAY
+RECEIVE thirdNumber FROM KEYBOARD
+SET average TO (firstNumber + secondNumber + thirdNumber) /3
+SEND average TO DISPLAY
